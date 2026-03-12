@@ -1,4 +1,5 @@
 import tensorflow as tf
+from src.data_loader import KineticDataLoader
 from models.arch import build_hpinn_model
 
 def train_stages(model, X_train, y_train, validation_data, w):
